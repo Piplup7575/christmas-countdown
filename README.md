@@ -1,1 +1,16 @@
 # christmas-countdown
+
+Merry Christmas!
+
+A quick little countdown I made for Christmas this year.
+
+[https://piplup7575.github.io/christmas-countdown](https://piplup7575.github.io/christmas-countdown)
+
+You can change the date under the `script.js` file, by modifying the `countDownDate` variable.
+The variable is organized by the following: `Month Day, Year Hour:Min:Sec`. For example, Christmas 2022 would be `Dec 25, 2022 00:00:00`
+
+It pulls the time from your browser's local time, so it should automaticaly update depending on your time zone.
+
+When the date and time is reached, the countdown is replaced with a message, sutch as `Merry Christmas!` This can be changed by editing the text in the double quotes in the final `if` statement.
+
+Enjoy!

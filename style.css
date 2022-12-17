@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+.countdown {
+  font-size:36px;
+  color:white;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+body {
+  font-family:'Roboto';
+  font-size:24px;
+  text-align:center;
+  background-color:#1b1b1e;
+  color:white;
+}
