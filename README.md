@@ -11,6 +11,6 @@ The variable is organized by the following: `Month Day, Year Hour:Min:Sec`. For 
 
 It pulls the time from your browser's local time, so it should automaticaly update depending on your time zone.
 
-When the date and time is reached, the countdown is replaced with a message, sutch as `Merry Christmas!` This can be changed by editing the text in the double quotes in the final `if` statement.
+When the date and time is reached, the countdown is replaced with a message, sutch as `Merry Christmas!` This can be changed by editing `countdownMessage` variable.
 
 Enjoy!
