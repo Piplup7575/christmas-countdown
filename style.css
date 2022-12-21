@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
 
-.countdown {
-  font-size:36px;
-  color:white;
-}
-
 .center {
   margin: 0;
   position: absolute;
@@ -19,5 +14,15 @@ body {
   font-size:24px;
   text-align:center;
   background-color:#1b1b1e;
+  color:white;
+}
+
+.countdown {
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+  padding: 3px;
+  vertical-align: top;
+  font-size:36px;
   color:white;
 }

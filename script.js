@@ -6,13 +6,19 @@ var x = setInterval(function() {
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    if (seconds === 1) {
-        document.getElementById('countdown').innerHTML = days + " days, " + hours + " hours, " + minutes + " minutes, and " + seconds + " second ";
-    } else {
-        document.getElementById("countdown").innerHTML = days + " days, " + hours + " hours, " + minutes + " minutes, and " + seconds + " seconds ";
-    }
+    document.getElementById('day').innerHTML = "<u>Days</u><br>" + days;
+    document.getElementById('hr').innerHTML = "<u>Hours</u><br>" + hours;
+    document.getElementById('min').innerHTML = "<u>Minutes</u><br>" + minutes;
+    document.getElementById('sec').innerHTML = "<u>Seconds</u><br>" + seconds;
+  
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("countdown").innerHTML = "Merry Christmas!";
+        document.getElementById("happy").innerHTML = "Merry Christmas!";
+        document.getElementById("day").innerHTML = "";
+        document.getElementById("hr").innerHTML = "";
+        document.getElementById("min").innerHTML = "";
+        document.getElementById("sec").innerHTML = "";
+    } else {
+        document.getElementById("happy").innerHTML = "";
     }
 }, 1000);
