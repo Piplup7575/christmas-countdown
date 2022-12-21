@@ -1,5 +1,5 @@
 /** you can edit the countdown messages below **/
-var countDownDate = new Date("Dec 25, 2022 00:00:00").getTime();
+var countDownDate = new Date("Dec 20, 2022 00:00:00").getTime();
 var countdownMessage = "Merry Christmas!";
 /** you can edit the countdown messages above **/
 
@@ -17,7 +17,7 @@ var x = setInterval(function() {
   
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("happy").innerHTML = "countdownMessage";
+        document.getElementById("happy").innerHTML = countdownMessage;
         document.getElementById("day").innerHTML = "";
         document.getElementById("hr").innerHTML = "";
         document.getElementById("min").innerHTML = "";
