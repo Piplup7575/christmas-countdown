@@ -4,7 +4,7 @@ Merry Christmas!
 
 ![screenshot](screenshot.png)
 
-A quick little countdown I made for Christmas this year.
+A quick little countdown I made for Christmas 2022.
 
 [https://piplup7575.github.io/christmas-countdown](https://piplup7575.github.io/christmas-countdown)
 

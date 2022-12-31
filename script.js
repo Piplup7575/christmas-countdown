@@ -1,5 +1,5 @@
 /** you can edit the countdown messages below **/
-var countDownDate = new Date("Dec 25, 2022 00:00:00").getTime();
+var countDownDate = new Date("Dec 25, 2023 00:00:00").getTime();
 var countdownMessage = "Merry Christmas!";
 /** you can edit the countdown messages above **/
 
